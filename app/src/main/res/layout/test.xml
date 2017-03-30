@@ -1,0 +1,17 @@
+<com.zhy.android.percent.support.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.ant.liao.GifView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/gif"
+        app:layout_heightPercent="100%h"
+        app:layout_widthPercent="100%h"
+        />
+
+
+</com.zhy.android.percent.support.PercentRelativeLayout>
